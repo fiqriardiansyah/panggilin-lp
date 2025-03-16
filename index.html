@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                "orange/panggilin": "#F1592A",
+                "neutral/dgray": "#4D4D4D",
+                "neutral/gray": "#717171",
+                "neutral/silver": "#F5F7FA",
+                "neutral/pink": "#F3ECEB",
+                "orange-light/panggilin": "#F4C8BC",
+              },
+            }
+          }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .button-primary {
+                @apply bg-orange/panggilin text-white rounded border-none px-4 py-2 capitalize hover:bg-opacity-50
+            }
+            .container-custom {
+                @apply container mx-auto px-8 md:px-12 lg:px-16 w-full
+            }
+        }
+        .slick-dots li button:before {
+            @apply text-xl text-[#F4C8BC]
+        }
+        .slick-dots li.slick-active button:before {
+            @apply !text-orange/panggilin
+        }
+    </style>
+    <title>Panggilin</title>
+    <meta name="title" content="Panggilin">
+    <meta name="description" content="Optimize and increase your business traction instantly">
+    <meta name="keywords" content="panggilin, bussiness, growth hacking, marketing, talent, survey, data collection, manage services, panggilin inovasi global">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+</head>
+<body class="w-screen !overflow-x-hidden">
+    <header class="w-screen py-4 sticky top-0 left-0 bg-neutral/silver z-20">
+        <nav class="container-custom flex items-center justify-between">
+            <img src="/assets/panggilin.png" alt="panggilin" class="h-[30px] lg:h-auto">
+            <ul class="gap-7 hidden lg:flex">
+                <li><a href="#" class="capitalize home">Home</a></li>
+                <li><a href="#" class="capitalize service">Service</a></li>
+                <li><a href="#" class="capitalize feature">Feature</a></li>
+                <li><a href="#" class="capitalize product">Product</a></li>
+                <li><a href="#" class="capitalize testimonial">Testimonial</a></li>
+                <li><a href="#" class="uppercase faq">FAQ</a></li>
+            </ul>
+            <div class="flex items-center gap-4">
+                <label id="switch-lang" class="inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer">
+                    <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-orange-light/panggilin dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange/panggilin"></div>
+                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300 uppercase">id</span>
+                </label>
+                <a href="https://wa.me/+6287877118529" target="_blank" class="button-primary contact_us">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <section class="w-screen overflow-hidden">
+        <div class="bg-neutral/silver jumbotron">
+            <div class="w-full">
+                <div class="container-custom flex items-center w-full min-h-[80vh] relative flex-col-reverse lg:flex-row">
+                    <div class="flex-1 flex flex-col items-start gap-10 h-full w-full relative z-10">
+                        <p class="text-3xl lg:text-6xl m-0">
+                            <span class="capitalize text-orange/panggilin font-medium boost">Boost</span> <br>
+                            <span class="capitalize text-2xl lg:text-4xl your_business_performance">Your Business Performance</span> <br>
+                            <span class="capitalize text-orange/panggilin font-medium without_hassle">Without Hassle.</span> <br>
+                            <span class="capitalize text-lg lg:text-2xl text-neutral/gray optimize">Optimize and increase your business traction instantly</span>
+                        </p>
+                        <button class="button-primary find_out">
+                            Find Out
+                        </button>
+                    </div>
+                    <div class="flex">
+                        <img src="/assets/jumbotron.png" alt="panggilin boost your business">
+                    </div>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="container-custom flex items-center flex-col-reverse lg:flex-row min-h-[80vh] relative">
+                    <div class="flex-1 flex flex-col items-start gap-10 h-full w-full relative z-10">
+                        <p class="text-3xl lg:text-6xl m-0">
+                            <span class="text-neutral/dgray text-2xl lg:text-4xl get_things_done capitalize">Get Things Done and</span> <br>
+                            <span class="font-medium text-orange/panggilin earn_more capitalize">Earn More.</span> <br>
+                            <span class="text-lg lg:text-2xl text-neutral/gray leading-none we_provide_extra capitalize">We provide extra hands for all your marketing & sales needed.</span>
+                        </p>
+                        <button class="button-primary find_out capitalize">
+                            Find Out
+                        </button>
+                    </div>
+                    <div class="flex-1">
+                        <img src="/assets/jumbotron.png" alt="panggilin boost your business">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-10">
+        <div class="container-custom flex items-center flex-col-reverse lg:flex-row">
+            <div class="flex-1">
+                <img src="/assets/section-2.png" alt="panggilin is a leading talent crowdsource">
+            </div>
+            <div class="flex-1 flex flex-col gap-5 font-medium ">
+                <p class="text-xl lg:text-4xl text-neutral/dgray">
+                    <span class="capitalize panggilin_is_a">Panggilin is a </span>
+                    <span class="capitalize text-orange/panggilin leading_talent_crowdsource">leading talent Crowdsource</span>
+                    <span class="capitalize and_manage_services_platform">and manage service platform.</span>
+                </p>
+                <p class="capitalize text-sm lg:text-normal font-light lg:font-normal text-neutral/gray we_empower_and_connect">We empower and connect ready-to-work talent to handle all of your business needs. Especially in the creative matters (digital marketer, content creator, KOL, nano influencer/buzzer, etc.)</p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-neutral/silver">
+        <div class="container-custom flex items-center py-10 flex-col lg:flex-row">
+            <div class="flex-1 flex flex-col gap-10">
+                <p class="capitalize text-xl lg:text-4xl text-neutral/dgray font-medium "><span class="capitalize our">Our</span> <span class="text-orange/panggilin achievement capitalize">Achievement</span> <span class="in_numbers capitalize">in Numbers</span></p>
+                <p class="text-normal lg:text-xl text-neutral/gray since_2019 capitalize">Since 2019, Making opportunities and increased productivity for thousands of people, both personal and businesses.</p>
+            </div>
+            <div class="flex-1 flex flex-wrap justify-start lg:justify-center gap-10 mt-10 lg:mt-0">
+                <img src="/assets/achieve-1.svg" alt="">
+                <img src="/assets/achieve-2.svg" alt="">
+                <img src="/assets/achieve-3.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-10">
+        <div class="container-custom flex items-center relative">
+            <div class="flex-1 absolute lg:relative bottom-0 right-0 w-[200px] lg:w-auto">
+                <img src="/assets/growth_hacking-1.png" alt="Growth hacking!">
+            </div>
+            <div class="flex-1 flex flex-col gap-5 relative z-10">
+                <p class="capitalize font-medium text-xl lg:text-4xl text-neutral/dgray growth_hacking">Growth Hacking</p>
+                <p class="capitalize text-normal lg:text-xl text-neutral/gray we_can_make">We can make your product standout and being recommended organically at social media, marketplace, and Appstore by ‘hacking the algorithm’…</p>
+                <div class="capitalize flex items-start gap-10 mt-4 flex-col-reverse lg:flex-row md:flex-row">
+                    <button class="capitalize button-primary mt-20 md:mt-0 explore">Explore</button>
+                    <div class="flex gap-3 w-full lg:w-auto">
+                        <img src="/assets/growth_hacking-2.svg" class="w-[150px] lg:w-auto" alt="Up socmed engagement rate">
+                        <img src="/assets/growth_hacking-3.svg" class="w-[150px] lg:w-auto" alt="Up appstore/market/place/G-MyBusiness rate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-neutral/silver">
+        <div class="container-custom flex items-center py-10 relative">
+            <div class="flex-[1.5] flex flex-col gap-5 items-start relative z-10">
+                <p class="capitalize text-neutral/dgray font-medium text-xl lg:text-4xl marketing_talent">Marketing Talent</p>
+                <p class="capitalize text-normal lg:text-xl text-neutral/gray we_can_provide">We can provide talent to improve your brand awareness mouth at the grassroots</p>
+                <div class="grid grid-cols-2 md:flex items-center flex-wrap gap-3">
+                    <img src="/assets/Group 2231.svg" alt="" class="">
+                    <img src="/assets/Group 2232.svg" alt="" class="">
+                    <img src="/assets/Group 2233.svg" alt="" class="">
+                    <img src="/assets/Group 2234.svg" alt="" class="">
+                </div>
+                <button class="button-primary mt-20 md:mt-0 explore capitalize">
+                    explore
+                </button>
+            </div>
+            <div class="flex-1 absolute lg:relative bottom-0 right-0 w-[200px]  lg:w-auto">
+                <img src="/assets/streaming-1.png" alt="Marketing talent">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-10">
+        <div class="container-custom flex items-center relative">
+            <div class="flex-1 absolute lg:relative bottom-0 right-0 w-[200px] lg:w-auto">
+                <img src="/assets/survey.png" alt="survey and data collection">
+            </div>
+            <div class="flex-[1.5] flex-col relative z-10 mb-20 lg:mb-0">
+                <p class="capitalize text-xl lg:text-4xl text-neutral/dgray font-medium survey_and_data">Survey & Data Collection</p>
+                <div class="flex flex-wrap justify-start gap-3 mt-10">
+                    <p class="capitalize text-neutral/gray text-normal lg:text-xl lg:w-[300px] we_can_provide_data">We can provide and source field talent to collect data/information in the grassroots or market.</p>
+                    <img src="/assets/survey-1.svg" alt="" class="hidden lg:block">
+                    <img src="/assets/survey-2.svg" alt="" class="hidden lg:block">
+                    <img src="/assets/survey-3.svg" alt="" class="hidden lg:block">
+                    <img src="/assets/survey-4.svg" alt="" class="hidden lg:block">
+                    <img src="/assets/survey-5.svg" alt="" class="hidden lg:block">
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-5 lg:hidden">
+                    <img src="/assets/survey-1.svg" alt="">
+                    <img src="/assets/survey-2.svg" alt="">
+                    <img src="/assets/survey-3.svg" alt="">
+                    <img src="/assets/survey-4.svg" alt="">
+                    <img src="/assets/survey-5.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-neutral/silver py-10">
+        <div class="container-custom flex items-center relative">
+            <div class="flex-[1.5] flex flex-col gap-5 relative z-10 mb-36 md:mb-20 lg:mb-0">
+                <p class="capitalize text-xl lg:text-4xl text-neutral/dgray font-medium manage_services">Manage Services</p>
+                <p class="capitalize text-neutral/gray text-normal lg:text-xl we_can_provide_extra">We can provide extra hands to craft on your digital creative work, digital marketing, and sales matter.</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:flex flex-wrap items-start gap-4">
+                    <img src="/assets/managed-1.png" alt="">
+                    <img src="/assets/managed-2.png" alt="">
+                    <img src="/assets/managed-3.png" alt="">
+                    <img src="/assets/managed-4.png" alt="">
+                </div>
+            </div>
+            <div class="flex-1 absolute lg:relative bottom-0 right-0 w-[300px] lg:w-auto">
+                <img src="/assets/managed-service.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white flex flex-col items-center gap-6 py-10 container-custom">
+        <p class="capitalize text-3xl text-neutral/dgray font-medium mb-10 our_clients">Our Clients</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <img src="/assets/clients-1.png" alt="" class="object-contain">
+            <img src="/assets/clients-2.png" alt="" class="object-contain">
+        </div>
+        <p class="capitalize text-3xl text-neutral/dgray font-medium my-10 our_partners">Our Partners</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <img src="/assets/partners-1.png" alt="" class="object-contain">
+            <img src="/assets/partners-2.png" alt="" class="object-contain">
+        </div>
+    </section>
+    <section class="bg-neutral/silver py-10">
+        <div class="container-custom flex flex-col items-center">
+            <p class="capitalize text-black text-xl lg:text-3xl font-medium those_who_use">Mereka yang menggunakan Panggilin</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-full mt-10">
+                <div class="bg-white rounded-2xl p-4 xl:p-8 flex items-start gap-5 shadow-[0px_15px_0px_#F3ECEB]">
+                    <img src="/assets/nick.png" alt="Nicklaus Satria">
+                    <div class="flex flex-col">
+                        <p class="capitalize text-lg text-neutral/dgray font-medium">Nicklaus Satria <span class="capitalize text-orange/panggilin font-normal text-sm block">CEO AUTOTIVO</span></p>
+                        <p class="capitalize text-neutral/gray text-sm mt-8 panggilin_provides">Panggilin memberikan solusi percepatan growth media sosial brand retail otomotif Autotivo dengan signifikan.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-4 xl:p-8 flex items-start gap-5 shadow-[0px_15px_0px_#F3ECEB]">
+                    <img src="/assets/davy.png" alt="Davy">
+                    <div class="flex flex-col">
+                        <p class="capitalize text-lg text-neutral/dgray font-medium">Davy <span class="capitalize text-orange/panggilin font-normal text-sm block">HONDA SUMSEL</span></p>
+                        <p class="capitalize text-neutral/gray text-sm mt-8 thank_you_to_panggilin">Terima Kasih untuk Panggilin yang bisa memberikan kontribusi berupa kenaikan engagement yang signifikan di sosial media Honda Sumsel  dalam waktu yang singkat</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-4 xl:p-8 flex items-start gap-5 shadow-[0px_15px_0px_#F3ECEB]">
+                    <img src="/assets/evan.png" alt="Nicklaus Satria">
+                    <div class="flex flex-col">
+                        <p class="capitalize text-lg text-neutral/dgray font-medium">Evan <span class="capitalize text-orange/panggilin font-normal text-sm block">ASTRO APP</span></p>
+                        <p class="capitalize text-neutral/gray text-sm mt-8 calling_is_a_very_solution">Panggilin sangatlah solutif dalam memberikan kebutuhan man power untuk kebutuhan survey ataupun akuisisi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-10 container-custom">
+        <div class="container-custom bg-[#FFECDC] rounded-2xl flex relative overflow-hidden">
+            <div class="flex-1 flex items-start flex-col gap-5 py-10 relative z-10">
+                <p class="capitalize text-neutral/dgray text-4xl font-medium get_ready_to_optimize">Get Ready to Optimize Your Business</p>
+                <p class="capitalize text-neutral/dgray text-xl font-light dont_hesitate">Don't hesitate to ask us about your bussiness needs.</p>
+                <div class="h-[100px] lg:hidden"></div>
+                <a href="https://wa.me/+6287877118529" target="_blank" class="button-primary capitalize contact_us">Contact Us</a>
+            </div>
+            <div class="flex-1 absolute lg:relative bottom-0 right-0 w-[300px] lg:w-auto">
+                <img src="/assets/contact.png" alt="" class="lg:h-[350px]">
+            </div>
+        </div>
+    </section>
+    <footer class="bg-orange/panggilin w-full py-10">
+        <div class="container-custom flex gap-10 flex-col lg:flex-row">
+            <div class="flex flex-1 flex-col gap-5 items-start">
+                <img src="/assets/panggilin-white.svg" alt="panggilin" class="h-[50px]">
+                <p class="text-white font-light leading-1">Copyright © 2024 PT Panggilin Inovasi Global <br> All rights reserved</p>
+                <div class="flex items-start w-full justify-between flex-col lg:flex-row">
+                    <div class="flex items-start gap-2">
+                        <img src="/assets/map-pin.svg" alt="">
+                        <p class="text-white font-light">GEDUNG CYBER 2 TOWER LANTAI 18 JALAN H.R. RASUNA SAID BLOK X-5 KAV. 13 , Kuningan Timur, Jakarta Selatan,  DKI Jakarta, Indonesia</p>
+                    </div>
+                    <div class="flex flex-col gap-5 mt-7 lg:mt-0">
+                        <div class="flex items-start gap-2">
+                            <img src="/assets/phone.svg" alt="">
+                            <a href="https://wa.me/+6287877118529" target="_blank" class="text-white font-light">+6287877118529</a>
+                        </div>
+                        <div class="flex items-start gap-2">
+                            <img src="/assets/mail.svg" alt="">
+                            <a href="mailto:hello@panggilin.com" class="text-white font-light">hello@panggilin.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-[1.5] justify-evenly flex-col lg:flex-row">
+                <div class="flex flex-col gap-2">
+                    <p class="text-white font-medium text-xl mb-5">Company</p>
+                    <a href="#" class="text-white font-light">About Us</a>
+                    <a href="#" class="text-white font-light">Our Services</a>
+                    <a href="#" class="text-white font-light">Success Story</a>
+                    <a href="#" class="text-white font-light">Testimonials</a>
+                    <a href="#" class="text-white font-light">Contact Us</a>
+                </div>
+                <div class="flex flex-col gap-2 mt-7 lg:mt-0">
+                    <p class="text-white font-medium text-xl mb-5">Support</p>
+                    <a href="#" class="text-white font-light">Help Center</a>
+                    <a href="#" class="text-white font-light">Terms of service</a>
+                    <a href="#" class="text-white font-light">Legal</a>
+                    <a href="#" class="text-white font-light">Privacy Policy</a>
+                    <a href="#" class="text-white font-light">Status</a>
+                </div>
+                <div class="flex flex-col gap-2 mt-7 lg:mt-0">
+                    <p class="text-white font-medium text-xl mb-5">Stay up to date</p>
+                    <form action="" class="relative">
+                        <input type="email" placeholder="Your email address" class="placeholder:text-white w-full lg:w-[300px] bg-white bg-opacity-20 text-white py-3 px-4 rounded-xl">
+                        <button class="absolute top-1/2 right-5 transform -translate-y-1/2 bg-transparent border-none">
+                            <img src="/assets/send.svg" alt="send">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
